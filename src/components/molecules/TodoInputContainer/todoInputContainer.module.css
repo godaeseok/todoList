@@ -1,0 +1,83 @@
+.inputContainer {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.inputRow {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 7px;
+}
+
+.inputWrapper {
+  flex: 1;
+  position: relative;
+}
+
+.inputText {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.2s;
+}
+
+.inputText.inputError {
+  border-color: #e74c3c;
+}
+
+.errorMessage {
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  color: #e74c3c;
+  font-size: 12px;
+}
+
+.inputText:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.optionsRow {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.deadlineInputContainer,
+.categoryContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.label {
+  font-size: 14px;
+  color: #666;
+  min-width: 60px;
+}
+
+.deadlineInput,
+.categorySelect {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.deadlineInput:focus,
+.categorySelect:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.categorySelect {
+  min-width: 80px;
+  cursor: pointer;
+}

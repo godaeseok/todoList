@@ -1,0 +1,64 @@
+.header {
+  background: #4263eb;
+  display: flex;
+  border-radius: 12px;
+  padding: 5px 10px 5px 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 12px rgba(66, 99, 235, 0.2);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.title h1 {
+  color: #fff;
+  font-size: 1.6em;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+.datetime {
+  font-size: 0.9em;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 25px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.sortControl,
+.categoryControl {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+.select:hover {
+  border-color: #aaa;
+}
+
+label {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+}

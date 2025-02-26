@@ -1,0 +1,91 @@
+.completeListContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.completeList{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 5px;
+  margin-bottom: 8px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  border: 1px solid #e9ecef;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.completeList:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-color: #dee2e6;
+}
+
+.contentSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.todoHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.todoContent{
+  flex: 1;
+  font-size: 0.85em;
+  color: #666;
+  border-radius: 4px;
+  /* cursor: pointer; */
+  text-decoration: line-through;
+}
+
+.todoContent:hover {
+  background-color: #f1f3f5;
+}
+
+.category {
+  font-size: 12px;
+  padding: 5px;
+  background-color: #e8f4fd;
+  color: #3498db;
+  border-radius: 4px;
+}
+
+.timeInfo {
+  display: flex;
+  gap: 15px;
+  font-size: 12px;
+  color: #999;
+}
+
+.deadline {
+  color: #95a5a6;
+}
+
+.createdAt {
+  color: #95a5a6;
+}
+
+.deadlineText{
+  color: #495057;
+  font-size: 0.85em;
+  padding: 4px 8px;
+  background: #e9ecef;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.buttonSection {
+  display: flex;
+  gap: 4px;
+}
