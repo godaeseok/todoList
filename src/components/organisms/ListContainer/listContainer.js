@@ -14,7 +14,8 @@ export default function ListContainer({
   isEditable,
   onEditContent,
   onEditCategory,
-  onEditDouble
+  onEditDouble,
+  onEditDeadline
 }) {
   const uncompletedTodos = todos.filter(todo => !todo.isCompleted);
   const completedTodos = todos.filter(todo => todo.isCompleted);
@@ -32,6 +33,7 @@ export default function ListContainer({
             onEditCategory={onEditCategory}
             isEditable={isEditable}
             onEditDouble={onEditDouble}
+            onEditDeadline={onEditDeadline}
           />
         </ul>
       </div>

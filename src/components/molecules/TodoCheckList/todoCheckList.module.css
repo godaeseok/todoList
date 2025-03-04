@@ -64,6 +64,11 @@ border-color: #dee2e6;
 
 .deadline {
   color: #e74c3c;
+  cursor: pointer;
+}
+
+.deadline:hover {
+  color: #f68a7e;
 }
 
 .createdAt {
